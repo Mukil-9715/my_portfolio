@@ -1,0 +1,114 @@
+.contact{
+    /* background: #000; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    color: white;
+    height: 100%;
+    
+}
+.contact-container{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.bg-gray{
+    background: rgb(24, 22, 22);
+    border-radius: 10px;
+
+}
+.contact-content{
+    padding: 6%;
+    background: rgb(24, 22, 22);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.contact-form{
+    /* background: rebeccapurple; */
+    padding: 2% 5%;
+    background: rgb(24, 22, 22);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    
+}
+.contact-form-input{
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.contact-form-input-text{
+    margin:  15px;
+    padding: 7px 10px;
+    width: 94%;
+    /* height:0%; */
+    border-radius: 8px;
+    background: rgb(88, 73, 201);
+    color: white;
+    outline: none;
+    border: none;
+
+}
+.contact-form-input-text-area{
+    margin:  15px;
+    padding: 8px 10px;
+    width: 94%;
+    height: 150px;
+    border-radius: 8px;
+    background: rgb(88, 73, 201);
+    color: white;
+    outline: none;
+    border: none;
+    resize: none;
+
+}
+.contact-content-items{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.contact-title{
+    color: rgb(88, 73, 201);
+padding: 3%;
+}
+.contact-subtitle{
+    width: 100%;
+    color: rgb(88, 73, 201);
+    text-align: center;
+}
+.contactlist{
+    list-style: none;
+}
+.list-title{
+ color: rgb(88, 73, 201);
+}
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+.Submit-btn{
+    background-color: rgb(7, 50, 96);
+    color:white;
+    border: none;
+    padding:10px 20px;
+    height: 10%;
+    width: 40%;
+    font-weight: 600;
+    /* margin-right: 200px; */
+}

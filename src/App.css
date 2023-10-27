@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceberg&family=Poppins&display=swap");
+/* font-family: 'Iceberg', cursive;
+  font-family: 'Poppins'; */
+*{
+  font-family: 'Poppins';
+}
+.th1{
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Iceberg';
+}
+.th2{
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Iceberg';
+}
+.th3{
+  font-size: larger;
+  font-weight: bold;
+}
+.tp{
+  font-size: medium;
+}
+.footer{
+  background: gray;
+  padding: 10px;
+  text-align: center;
+}
+.cr{
+  color: rgb(88, 73, 201);
+
+}
