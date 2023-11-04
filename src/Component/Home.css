@@ -1,7 +1,6 @@
 .home-content{
     height: 100vh;
     color: white;
-    background: #000;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -10,15 +9,35 @@
 .homeleft{
     width: 40%;
     /* text-align: center; */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* .homeright{ */
-
-/* } */
+    
+    /* } */
 .maintext{
     width: 100%;
     text-wrap: wrap;
+}
+.Destop-picture{
+    display: block;
+    padding-left: 15%;
+}
+.Phone-picture{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    .homeleft{
+        width: 100%;
+    }
+    .Phone-picture {
+        display: block;
+        padding-left: 10%;
+    }
+    .Destop-picture {
+    display: none;
+    }
+    
 }

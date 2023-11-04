@@ -8,8 +8,8 @@ import { Button } from "antd";
 
 const Ct = () => {
   return (
-    <div className="contact bg-black ">
-      <div className="container bg-black">
+    <div className="contact black ">
+      <div className="container black">
         <div c className="contact-title text-center th1">
           Contact With Me
         </div>

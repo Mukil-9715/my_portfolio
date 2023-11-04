@@ -8,14 +8,16 @@ import Skill from './Component/Skill';
 import Ct from './Component/Ct';
 import About from './Component/About';
 import At from './Component/At';
+import Project from './Component/Project';
 
 function App() {
   return (
     <>
     <Nav/>
     <Home/>
-    {/* <Skill/> */}
     <About/>
+    <Skill/>
+    <Project />
     {/* <At/> */}
     {/* <Contact/> */}
     <Ct/>
