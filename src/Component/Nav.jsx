@@ -8,17 +8,16 @@ const Nav = () => {
   return (
     <nav className='nav sticky-top'>
         {/* <div className="container"> */}
-            <Link to="" className="brand-link th1">Mukilan</Link>
+            <Link to="/" className="brand-link th1"> <span className='clr th1'>&lt; </span>Mukilan<span className='th1 clr'> /&gt;</span></Link>
             {/* <div className="list"> */}
                 <ul className="listmain">
-                    <li className="list-item th3"><Link to={"#About"}>About</Link></li>
-                    <li className="list-item th3"><Link to={"#Home"}>Home</Link></li>
-                    <li className="list-item th3"><Link to={"#Skill"}>Skill</Link></li>
-                    <li className="list-item th3"><Link to={"#Project"}>Project</Link></li>
-                    <li className="list-item th3"><Link to={"#Contact"}>Contact</Link></li>
+                    <li className="list-item btn  th3"><Link className='li-btn' to={"/"}>Home</Link></li>
+                    <li className="list-item btn th3"><Link  className='li-btn' to={"/AboutModules"}>About</Link></li>
+                    <li className="list-item btn th3"><Link  className='li-btn' to={"/ProjectModules"}>Project</Link></li>
+                    <li className="list-item btn th3"><Link  className='li-btn' to={"/Contact"}>Contact</Link></li>
                 </ul>
             {/* </div> */}
-            <Button className='toggler-button'><MenuOutlined /></Button>
+            <Button className='toggler-button'><MenuOutlined style={{width:"70 px"}} /></Button>
         {/* </div> */}
     </nav>
   )

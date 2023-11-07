@@ -20,3 +20,58 @@ width: 40%;
 .toggler-button{
     display:none;
 }
+.li-btn{
+    color: white;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    
+    scale: 1.2;
+    .li-btn::after{
+        
+        content: " />";
+        color: orange;
+        font-weight: bold;
+    }
+    .li-btn::before {
+        content: "< ";
+        color: orange;
+        font-weight: bold   ;
+        
+    }
+}
+.clr{
+    color: orange;
+    
+}
+@media only screen and (max-width:1125px){
+    .btn:hover{
+        
+        scale: 1.2;
+        .li-btn::after{
+            
+            content: "";
+            color: orange;
+            font-weight: bold;
+        }
+        .li-btn::before {
+            content: "";
+            color: orange;
+            font-weight: bold   ;
+            
+        }
+    }   
+}
+
+@media only screen and (max-width:650px){
+    .listmain{display: none;}
+    .toggler-button{
+        display: block;
+        color: white;
+        background-color: #000;
+        outline: none;
+        border: none;
+        /* width: 55%; */
+    }
+}

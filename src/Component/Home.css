@@ -23,18 +23,19 @@
 }
 .Destop-picture{
     display: block;
-    padding-left: 15%;
+    padding-left: 20%;
 }
 .Phone-picture{
     display: none;
 }
+
 @media only screen and (max-width:768px) {
     .homeleft{
         width: 100%;
     }
     .Phone-picture {
         display: block;
-        padding-left: 10%;
+        /* padding-left: 10%; */
     }
     .Destop-picture {
     display: none;

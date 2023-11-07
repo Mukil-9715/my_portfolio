@@ -1,23 +1,22 @@
 import React from "react";
 import "./Project.css";
 import desktop from "../Assest/desktop screen.png";
-import pro1 from "../Assest/Pro_pic/Screenshot 2023-11-05 201529.png";
 import pro2 from "../Assest/Pro_pic/Screenshot 2023-11-05 202105.png";
 
 
 
-const Project = () => {
+const Projects = () => {
   return (
-    <div className="project-main  black ">
-      <div class="project bg-g1">
+    <div className="project-main black ">
+      <div class="project bg-g2">
         <div className="abt-rev  container ">
-          <div className="fs-1   fw-bold cr">Project</div>
+          {/* <div className="fs-1   fw-bold cr">Project</div> */}
           <div className="d-flex  row">
             <div className="fs-4 col-lg image-containers p-0">
               <img className="" src={desktop} alt="" width="97.5%" />
               <img
-                className="overlay "
-                src={pro1}
+                className="overlay"
+                src={pro2}
                 alt=""
                 width="90%"
               />
@@ -32,4 +31,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

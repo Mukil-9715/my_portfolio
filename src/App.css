@@ -2,6 +2,8 @@
 /* font-family: 'Iceberg', cursive;
   font-family: 'Poppins'; */
 *{
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
   font-family: 'Poppins';
 }
 .th1{

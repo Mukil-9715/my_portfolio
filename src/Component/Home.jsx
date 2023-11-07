@@ -19,7 +19,7 @@ const Home = () => {
             </div>
         <div className="homeright col-md p-0">
             <img className='Destop-picture' src={pic}alt=''/>
-            <img className='Phone-picture' src={pics}alt=''/>
+            <img className='Phone-picture p-0' src={pics}alt=''/>
         </div>
         </div>
     </section>
