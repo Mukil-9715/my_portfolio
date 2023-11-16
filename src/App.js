@@ -7,7 +7,6 @@ import AboutModules from './Component/Modules/AboutModules';
 import HomeModules from './Component/Modules/HomeModules';
 import ProjectModules from './Component/Modules/ProjectModules';
 import Nav from './Component/Nav';
-// import Ct from './Component/Ct';
 
 function App() {
   return (
